@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView morty = findViewById(R.id.Morty);
         //ImageView rick = findViewById(R.id.Rick);
 
-        morty.animate().rotation(1800f).setDuration(2000);
+        morty.animate().scaleX(0.5f).scaleY(0.5f).setDuration(2000);
 
 
         //rick.animate().alpha(1f).setDuration(2000);
