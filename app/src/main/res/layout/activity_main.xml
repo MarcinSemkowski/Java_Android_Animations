@@ -15,4 +15,13 @@
         tools:layout_editor_absoluteX="117dp"
         tools:layout_editor_absoluteY="215dp" />
 
+    <ImageView
+        android:id="@+id/Rick"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="fade"
+        app:srcCompat="@drawable/rick"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="190dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
