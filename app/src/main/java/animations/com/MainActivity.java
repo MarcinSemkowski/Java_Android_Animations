@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView morty = findViewById(R.id.Morty);
         //ImageView rick = findViewById(R.id.Rick);
 
-        morty.animate().translationXBy(1000f).setDuration(2000);
+        morty.animate().rotation(1800f).setDuration(2000);
 
 
         //rick.animate().alpha(1f).setDuration(2000);
@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView morty = findViewById(R.id.Morty);
-        morty.setTranslationX(-1000f);
+       // ImageView morty = findViewById(R.id.Morty);
+       // morty.setTranslationX(-1000f);
 
     }
 }
